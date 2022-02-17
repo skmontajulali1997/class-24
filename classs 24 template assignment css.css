@@ -1,0 +1,61 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Spartan', sans-serif;
+}
+/* start css */
+/* header-section */
+.logo {
+    width: 330px;
+}
+.logo-img{
+    width: 100px;
+}
+.header-bg{
+    background-color: #e7e6e6;
+}
+.header-menu li{
+    padding: 10px 20px;
+}
+.header-menu li a {
+    color: #797878;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-btn {
+    margin-left: 70px;
+    border-radius: 30px;
+    font-size: 19px;
+    padding: 11px 28px;
+    background-color: #fff;
+    color: #7291f0;
+    font-weight: 700;
+    position: relative;
+    border: none;
+    z-index: 1;
+    transition: .5s;
+    
+}
+.header-btn:hover{
+    color: #fff;
+}
+.header-btn::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    color: #fff;
+    background-color: #7291f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: -1;
+    
+    
+}
+.header-btn:hover::before{
+   
+    width: 100%;
+    
+    
+    
+}
